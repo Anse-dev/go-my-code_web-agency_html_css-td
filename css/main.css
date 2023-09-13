@@ -1,0 +1,107 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.4;
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* Formatting */
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+
+  height: auto;
+}
+ul,
+nav {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* General */
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.d-grid {
+  display: grid;
+}
+.d-flex {
+  display: flex;
+}
+.btn-black {
+  background-color: black;
+  color: #fff;
+  padding: 6px 8px;
+  transition: all 0.3s;
+  text-transform: capitalize;
+}
+.btn-black:hover {
+  color: antiquewhite;
+}
+/* Header style */
+.header-section {
+  background-color: antiquewhite;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-section-content {
+  grid-template-columns: 20% 1fr 10%;
+}
+
+.nav-list {
+  justify-content: start;
+}
+.nav-list-item:hover .nav-list-link {
+  font-weight: bolder;
+}
+.nav-list-item {
+  padding-right: 27px;
+  text-transform: capitalize;
+}
+.nav-list-link {
+  transition: font-weight 0.3s;
+}
+
+/* Home section */
+.home-section {
+  background-color: rgba(250, 235, 215, 0.322);
+}
+.home-section-content {
+  display: flex;
+  align-items: center;
+  height: 500px;
+}
+.home-section-content .content {
+  grid-template-columns: 50% 1fr;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 20px;
+}
+.home-section-content img {
+  display: block;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
