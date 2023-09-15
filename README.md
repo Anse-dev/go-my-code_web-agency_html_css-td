@@ -13,6 +13,14 @@ Ce projet consiste à créer un site web pour une agence web fictive. L'objectif
 ## Structure du Projet
 
 Le projet devrait avoir la structure de base suivante :
+/
+|-- index.html
+|-- css/
+|   |-- style.css
+|-- img/
+|   |-- (images du site)
+|-- README.md
+
 
 ## Instructions pour le Développement
 
