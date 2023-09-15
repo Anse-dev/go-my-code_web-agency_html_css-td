@@ -32,3 +32,6 @@ Ce projet a été initié par Gomy Code.
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
+![Document](https://github.com/Anse-dev/go-my-code_web-agency_html_css-td/assets/67246148/29a55ec5-936a-48a5-afa2-79377be2308d)
+
+
